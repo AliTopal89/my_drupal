@@ -17,7 +17,7 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_PASSWORD: xmus_jaxon_flaxon-waxon
+      POSTGRES_PASSWORD: xmus_jaxon_flaxon_waxon
     volumes:
         - db_data:/var/lib/postgresql/data
     restart: always
